@@ -1,0 +1,762 @@
+*{
+  box-sizing: border-box;
+  background-color: rgb(192, 167, 227);
+  scroll-behavior: smooth;
+
+  
+}
+
+
+.navbar{
+  display: flex;
+  height: 11vh;
+  width: 1500px;
+  position: sticky;top:0%;
+  backdrop-filter: 80px;
+  overflow: hidden;
+
+}
+
+
+.nav-links{
+   
+      margin-left: 40%;
+
+} 
+ @media screen {
+  min-width : 1230;
+  margin-left: 10%;
+
+}
+
+li{
+      display: inline;
+      align-content: center;
+      justify-content: space-between;
+      background-color: transparent;
+}
+
+a{
+  margin-left: 100px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:BLACK;
+  transition: all;
+  font-weight: 500;
+  
+  
+}
+
+a:hover{
+  color: rgb(115, 49, 227);
+  transition-duration: 1s;
+}
+
+.logo{
+  font-size: 40px;
+  margin-left: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all;
+  color: black;
+  transition: all;
+  position: fixed;
+}
+
+.logo:hover{
+  color: rgb(113, 81, 228);
+  transition: 1S;
+
+}
+
+.picture{
+
+   overflow: hidden;
+   border-radius: 15px;
+   width: 100%;
+   margin-left: 0%;
+   margin-top: 1%;
+  
+
+}
+
+.content{
+  background-color: transparent;
+  position: absolute;
+  color: white;
+  margin-left: 10%;
+  margin-top: 28%;
+  font-weight:300;
+  font-size:60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: ease-in-out;
+  transform:rotate3d(20gig)
+  
+}
+
+.content:hover{
+  font-size: 63px;
+  color: rgb(169, 119, 215);
+  transition-delay: 0s;
+  transition-duration: 1s;
+
+
+}
+
+.about-content{
+  background-color: transparent;
+  position: absolute;
+  color: white;
+  margin-left: 10%;
+  margin-top: 35%;
+  font-size: 15px;
+  font-weight: 200;
+  transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+  opacity:0.5 ;
+  
+}
+
+.about-content:hover{
+  color: rgb(169, 119, 215);
+  font-size: 16px;
+  transition-duration: 3s;
+}
+.self{
+  display: flex;
+  margin-top: 5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 450;
+  height: 800px;
+  width: 1300px;
+  background-color:rgb(209, 176, 240);
+  margin-left: 8%;
+  border-radius: 15px;
+  
+}
+.wrep-about{
+  
+  position: absolute;
+  background: transparent;
+  margin-left: 550px;
+  font-size: 35px; 
+  font-weight: 600;
+  transition: all;
+}
+.wrep-about:hover{
+  color: rgb(123, 33, 201);
+  text-decoration: underline;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  
+}
+.my-pic{
+  margin-left: 55px;
+  margin-top: 10%;
+  height: 600px;
+  border-radius: 20px;
+  transition: all;
+}
+
+.row{
+  display: flex;
+  position: absolute;
+  background-color: transparent;
+  margin-left: 400px;
+  margin-top: 8%;
+  justify-content: space-between;
+}
+
+.my-info{
+  background-color: transparent;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+li{
+  background-color: transparent;
+}
+
+strong{
+  background-color: transparent;
+  
+}
+
+span{
+  background-color: transparent;
+}
+
+.my-info-1{
+  background-color: transparent;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.skill-cantainer{
+  display: flex;
+  position: absolute;
+  margin-top: 230px;
+  background-color: transparent;
+  margin-left: 50px;
+}
+
+h3{
+  background-color: transparent;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all;
+  
+  
+}
+
+h3:hover{
+  color:rgb(123, 33, 201);
+  transition-duration: 1s;
+
+}
+
+.html{
+  
+  position:absolute;
+  font-size: 2vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:transparent ;
+  box-shadow: 10px 5px 15px rgba(80, 21, 174, 0.5);
+  margin-top: 70%;
+  padding-top: 65%;
+  padding-left: 35px;
+  height: 150px;
+  border-radius: 10px;
+  width: 150px; 
+  transition: all;
+}
+.html:hover{
+  color:rgb(123, 33, 201);
+  
+  transition-duration: 1s;
+}
+.CSS{
+  position: absolute;
+  font-size: 2vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:transparent ;
+  box-shadow: 10px 5px 15px rgba(80, 21, 174, 0.5);
+  margin-top: 70%;
+  padding-top: 65%;
+  padding-left:50px;
+  margin-left: 200px;
+  height: 150px;
+  border-radius: 10px;
+  width: 150px;
+  transition: all;
+}
+
+.CSS:hover{
+  color:rgb(123, 33, 201);
+  transition-duration: 1s;
+}
+
+.js{
+  position: absolute;
+  display:flexbox;
+  font-size: 2vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:transparent ;
+  box-shadow: 10px 5px 15px rgba(80, 21, 174, 0.5);
+  margin-top: 70%;
+  padding-top: 65%;
+  padding-left:10px;
+  margin-left: 400px;
+  height: 150px;
+  border-radius: 10px;
+  width: 200px;
+  transition: all;
+
+}
+
+.js:hover{
+  color:rgb(123, 33, 201);
+  transition-duration: 1s;
+}
+
+.c{
+  position: absolute;
+  font-size: 2vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:transparent ;
+  box-shadow: 10px 5px 15px rgba(80, 21, 174, 0.5);
+  margin-top: 70%;
+  padding-top: 65%;
+  padding-left:50px;
+  margin-left: 650px;
+  height: 150px;
+  border-radius: 10px;
+  width: 150px;
+  transition: all;
+}
+
+.c:hover{
+  color:rgb(123, 33, 201);
+  transition-duration: 1s;
+}
+.resume-cantainer{
+  margin-top: 5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 450;
+  height: 600px;
+  width: 1300px;
+  background-color:rgb(209, 176, 240);
+  margin-left: 8%;
+  border-radius: 15px; 
+}
+.resume{
+  box-sizing: border-box;
+  position: absolute;
+  background-color: transparent;
+  margin-left: 38%;
+  font-weight: 500;
+  margin-top: 1%;
+  font-size: 35px;
+}
+.resume:hover{
+  color: rgb(123, 33, 201);
+  text-decoration: underline;
+  transition-duration: 1s;
+  transition-delay: 0s;
+}
+.resume-cantain{
+  background-color: transparent;
+  position: absolute;
+  margin-left: 20%;
+  font-size: 20px;
+  margin-top: 5%;
+}
+.resume-info-1{
+  display: flex;
+  
+ 
+}
+.school{
+  position: absolute;
+  background-color: transparent;
+  margin-left: 70px;
+  margin-top: 180px;
+  font-size: 35px;
+}
+.resume-item{
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  border-radius: 50px;
+  background-color: black;
+  margin-top: 230px;
+  border: 2px solid black;
+  margin-left: 61px;
+  
+}
+.school-1{
+  position: absolute;
+  background-color: transparent;
+  position: absolute;
+  margin-top: 240px;
+  margin-left: 68px ;
+  border-left: 2px solid black;
+  padding-left: 50px;
+  height: 200px;
+  font-size: 20px; 
+  transition: all; 
+}
+.school-1:hover{
+color: blueviolet;
+transition-duration: 1s;
+}
+
+ .year{
+  position: absolute;
+  display: inline-block;
+  width: 90px;
+  height: 30px;
+  margin-top: 280px;
+  margin-left: 120px;
+  padding: 6px;
+  box-shadow: 0px 0px 5px rgba(128, 9, 226, 0.5);
+  
+}
+.year:hover{
+  color:white;
+  background-color: blueviolet;
+  box-shadow: 0px 0px 15px rgba(128, 9, 226, 0.5);
+  border: 1px solid black;
+  transition-duration: 1s;
+}
+.resume-item2{
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  border-radius: 50px;
+  background-color: black;
+  margin-top: 340px;
+  border: 2px solid black;
+  margin-left: 61px;
+}
+.school-2{
+  position: absolute;
+  background-color: transparent;
+  margin-top: 360px;
+  margin-left: 68px ;
+  border-left: 2px solid black;
+  padding-left: 50px;
+  height: 130px;
+  font-size: 20px;
+  transition: all;
+}
+.school-2:hover{
+  color: blueviolet;
+  transition-duration: 1s;
+}
+.year-2{
+  position: absolute;
+  display: inline-block;
+  width: 90px;
+  height: 30px;
+  margin-top: 400px;
+  margin-left: 120px;
+  padding: 6px;
+  box-shadow: 0px 0px 5px rgba(128, 9, 226, 0.5);
+  transition: all;
+}
+.year-2:hover{
+  color:white;
+  background-color: blueviolet;
+  box-shadow: 0px 0px 15px rgba(128, 9, 226, 0.5);
+  border: 1px solid black;
+  transition-duration: 1s;
+}
+.heigher-1{
+  position: absolute;
+  background-color: transparent;
+  margin-left: 665px;
+  margin-top: 180px;
+  font-size: 35px;
+}
+.resume-item3{
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  border-radius: 50px;
+  background-color: black;
+  margin-top: 250px;
+  border: 2px solid black;
+  margin-left: 661px;
+
+}
+.heigher-2{
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 669px;
+  border-left: 2px solid black;
+  height: 180px;
+  padding-left: 25px;
+  transition: all;
+
+
+}
+.heigher-2:hover{
+  color: blueviolet;
+  transition-duration: 1s;
+}
+.heigher-info{
+  background-color: transparent;
+  position: absolute;
+  font-style: italic;
+  text-shadow:0px 0px 5px rgba(128, 9, 226, 0.5) ;
+  margin-top: 290px;
+  margin-left: 720px;
+  
+}
+
+
+
+.icon{
+  
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 5px rgba(128, 9, 226, 0.5);
+  margin-top: 40px;
+  margin-left: 100px;
+}
+.fa-computer{
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 15px;
+  color: rgb(145, 58, 226);
+}
+.contect-cantainer{
+  margin-top: 5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 450;
+  height: 600px;
+  width: 1300px;
+  background-color:rgb(209, 176, 240);
+  margin-left: 8%;
+  border-radius: 15px; 
+}
+.contect{
+  background-color: transparent;
+
+  margin-top: 30px;
+  align-content: center;
+  margin-left: 530px;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.contect:hover{
+  color: rgb(123, 33, 201);
+  text-decoration: underline;
+  transition-duration: 1s;
+  transition-delay: 0s;
+}
+.contect-info{
+  background-color: transparent;
+  position: absolute;
+  margin-top: 25px;
+  text-decoration: wavy;
+  font-size: 20px;
+  font-style:oblique;
+  margin-left: 400px;
+}
+form{ 
+  position: absolute;
+  background-color: transparent;
+  margin-top: 100px;
+}
+
+.contact { 
+  position: absolute;
+  background-color: transparent;
+  width: 100%;
+  padding: 10px;
+  margin-left: 200px;
+  margin-top: 150px;
+  border: 2px solid rgb(77, 74, 74);
+  box-shadow: 0px 0px 5px rgba(128, 9, 226, 0.5);
+  font-size: 20px;
+  width: 900px;
+  border-radius: 4px;
+  transition: all;
+}
+.cotact:hover{
+  border: 2px solid black;
+}
+.name{
+  width: 400px;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 40px;
+  font-size: 15px;
+  padding-left: 22px;
+  box-shadow: 0px 0px 5px rgba(128, 9, 226, 0.5);
+  border-radius: 4px;
+  background-color: transparent;
+  color: black;
+  height: 40px;
+  width: 400px;
+  border: 2px solid rgb(77, 74, 74);
+}
+.name:hover{
+  border: 2px solid black;
+  
+}
+#email{
+  width: 400px;
+  height: 40px;
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 40px;
+  box-shadow: 0px 0px 5px rgba(128, 9, 226, 0.5);
+  background-color: transparent;
+  font-size: 15px;
+  border-radius: 4px;
+  padding-left: 25px;
+  border: 2px solid rgb(77, 74, 74);
+
+}
+#email:hover{
+  border: 2px solid black;
+}
+#subject{
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 200px;
+  font-size: 15px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px rgba(128, 9, 226, 0.5);
+  background-color: transparent;
+  padding-left: 25px;
+  width: 900px;
+  height: 40px;
+  border: 2px solid rgb(77, 74, 74);
+}
+#subject:hover{
+  border: 2px solid black;
+}
+input:is(:-webkit-autofill, :autofill){
+  border: 2px solid black;
+
+}
+button{
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 600px;
+  width: 150px;
+  font-size: 15px;
+  background-color: transparent;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px rgba(128, 9, 226, 0.5);
+  height: 35px;
+  color: black;
+  border: 2px solid rgb(12, 11, 11);
+
+}
+
+button:hover{
+  border: 2px solid black;
+  color: aliceblue;
+  background-color: blueviolet;
+  transition-duration: 1s;
+}
+
+.footer-image{
+  position: absolute;
+  width: 100%;
+  align-items: center;
+  height: 500px;
+  opacity: 0.8;
+  margin-top: 50px;
+  
+}
+
+.identity{
+  position: absolute;
+  background-color: transparent;
+  font-style: italic;
+  font-size: 45px;
+  height: 200px;
+  color: white;
+  margin-left: 680px;
+  margin-top: 200px;
+
+}
+
+.footer-icon{
+  display: flex;
+  position: absolute;
+  margin-top: 400px;
+  background-color: transparent;
+  margin-left: 650px;
+  font-size: 25px;
+
+}
+
+.icons{
+  height: 50px;
+  display: flex;
+  background-color: aliceblue;
+  width: 50px;
+  margin-left: 20px;
+  border: 1px solid grey;
+  border-radius: 25px;
+  transition: all;
+
+}
+
+.icons:hover{
+  background-color: orange;
+  color: aliceblue;
+  transition-duration: 1s;
+  border: 1px solid grey;
+
+}
+
+.fa-facebook{
+  background-color: transparent;
+  margin-top: 11px;
+  margin-left: 13px;
+
+}
+
+.fa-instagram{
+  background-color: transparent;
+  margin-top: 11px;
+  margin-left: 13px;
+
+}
+
+.fa-twitter{
+  background-color: transparent;
+  margin-top: 11px;
+  margin-left: 13px;
+
+}
+
+.fa-linkedin{
+  background-color: transparent;
+  margin-top: 11px;
+  margin-left: 13px;
+
+}
+
+.email{
+  position: absolute;
+  margin-left: 650px;
+  margin-top:-290px ;
+  font-size: 15px;
+  color: white;
+  transition: all;
+
+}
+
+.email:hover{
+  color: orange;
+  transition-duration: 1s;
+
+
+}
+
+.fa-envelope{
+  background-color: transparent;
+  position: absolute;
+  margin-left: -30px;
+  font-size: 20px;
+  transition: all;
+
+}
+
+.fa-envelope:hover{
+  color: orange;
+  transition-duration: 1s;
+
+}
+
+.fa-phone{
+  background-color: transparent;
+  position: absolute;
+  margin-left: -30px;
+
+}
+
+.mine{
+  background-color: transparent;
+  color: white;
+  margin-top: 80px;
+  font-style: italic;
+  color:pink;
+  margin-left: 325px;
+  border-bottom: 2px solid white;
+
+}
